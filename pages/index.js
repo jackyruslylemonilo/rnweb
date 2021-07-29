@@ -1,4 +1,5 @@
 import { View, Text, FlatList, TouchableOpacity, StyleSheet, Platform, Animated, TextInput, Image } from 'react-native';
+import Swiper from 'react-id-swiper';
 
 const styles = StyleSheet.create({
   text: {
@@ -38,6 +39,24 @@ const Index = () => {
       </TouchableOpacity>
 
       <TextInput />
+
+      <Swiper>
+        <div>
+          <Image style={styles.image} source={{ uri: 'https://demo.tiny.pictures/main/example6.jpg?width=400&height=400&resizeType=cover&gravity=0.46%2C0.34'}} resizeMode="cover" />
+        </div>
+        <div>
+          <Image style={styles.image} source={{ uri: 'https://demo.tiny.pictures/main/example6.jpg?width=400&height=400&resizeType=cover&gravity=0.46%2C0.34'}} resizeMode="cover" />
+        </div>
+        <div>
+          <Image style={styles.image} source={{ uri: 'https://demo.tiny.pictures/main/example6.jpg?width=400&height=400&resizeType=cover&gravity=0.46%2C0.34'}} resizeMode="cover" />
+        </div>
+        <div>
+          <Image style={styles.image} source={{ uri: 'https://demo.tiny.pictures/main/example6.jpg?width=400&height=400&resizeType=cover&gravity=0.46%2C0.34'}} resizeMode="cover" />
+        </div>
+        <div>
+          <Image style={styles.image} source={{ uri: 'https://demo.tiny.pictures/main/example6.jpg?width=400&height=400&resizeType=cover&gravity=0.46%2C0.34'}} resizeMode="cover" />
+        </div>
+      </Swiper>
 
       <Image style={styles.image} source={{ uri: 'https://demo.tiny.pictures/main/example6.jpg?width=400&height=400&resizeType=cover&gravity=0.46%2C0.34'}} resizeMode="cover" />
     </View>

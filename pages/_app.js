@@ -1,5 +1,6 @@
 import * as React from 'react'
 import Head from 'next/head'
+import 'swiper/swiper.scss';
 
 function MyApp({ Component, pageProps }) {
   return (
