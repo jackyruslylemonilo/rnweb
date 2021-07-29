@@ -1,5 +1,6 @@
 import { View, Text, FlatList, TouchableOpacity, StyleSheet, Platform, Animated, TextInput, Image } from 'react-native';
 import Swiper from 'react-id-swiper';
+import Head from 'next/head';
 
 const styles = StyleSheet.create({
   text: {
@@ -16,6 +17,9 @@ const Index = () => {
 
   return (
     <View>
+      <Head>
+        <link rel="preload" as="image" href="https://demo.tiny.pictures/main/example6.jpg?width=400&height=400&resizeType=cover&gravity=0.46%2C0.34" />
+      </Head>
       <Text style={styles.text}>Testing</Text>
 
       <Text>React Native Web</Text>
