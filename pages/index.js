@@ -1,4 +1,4 @@
-// import { View, Text, FlatList, TouchableOpacity, StyleSheet, Platform, Animated, TextInput, Image } from 'react-native';
+import { View, Text, FlatList, TouchableOpacity, StyleSheet, Platform, Animated, TextInput, Image } from 'react-native';
 import Swiper from 'react-id-swiper';
 import Head from 'next/head';
 
