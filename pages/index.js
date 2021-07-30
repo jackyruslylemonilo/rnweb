@@ -2,15 +2,15 @@ import { View, Text, FlatList, TouchableOpacity, StyleSheet, Platform, Animated,
 import Swiper from 'react-id-swiper';
 import Head from 'next/head';
 
-// const styles = StyleSheet.create({
-//   text: {
-//     color: 'red',
-//   },
-//   image: {
-//     width: 400,
-//     height: 400,
-//   }
-// });
+const styles = StyleSheet.create({
+  text: {
+    color: 'red',
+  },
+  image: {
+    width: 400,
+    height: 400,
+  }
+});
 
 const Index = () => {
   // console.log(Platform.OS);
